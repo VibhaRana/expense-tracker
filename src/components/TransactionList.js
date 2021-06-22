@@ -4,10 +4,11 @@ import { Transaction } from './Transaction';
 
 
 function TransactionList() {
-    const context = useContext(GlobalContext)
-    console.log(context)
+  
+
     // Destructure transactions from context
     const { transactions } = useContext(GlobalContext);
+    console.log(transactions)
 
 
     return (
